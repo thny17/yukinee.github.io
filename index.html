@@ -26,8 +26,9 @@
 		}
 
 		.phanthiep{
-			width: 40%;
-			min-height:	65%;
+			width: 90%;
+			max-width: 500px; 
+			min-height:	70vh;
 			margin: auto;
 			padding: 30px 40px 40px 40px;
 
@@ -49,13 +50,22 @@
 			align-items: center;
 			font-family: Arial, Helvetica, sans-serif;
 		}
+		h1{
+            font-size: clamp(26px, 5vw, 40px);
+            margin-bottom:10px;
+		}
 
-		p{
+		p{ 
+			font-size: clamp(14px, 2.5vw, 18px);
+            line-height: 1.5;
+            margin:10px 0;
 			overflow-wrap: break-word;
 			
 		}
 
 		img{
+			width: clamp(60px, 12vw, 100px);
+            margin-bottom:10px;
 			width: 150px; 
 			height: 150px;
 			margin: 0;
